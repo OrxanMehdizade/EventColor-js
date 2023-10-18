@@ -1,0 +1,26 @@
+a{
+    float: right;
+}
+
+.Contenir{
+    margin: 0 auto;
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+
+}
+form{
+    margin-left: 40px;
+}
+
+#signIn{
+    width: 176px;
+    border-radius: 5px;
+
+}
+#signIn:hover{
+    background: red;
+    color: white;
+    border: 5px solid red;
+}
