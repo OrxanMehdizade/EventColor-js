@@ -1,0 +1,23 @@
+#divInput{
+    background-color: wheat;
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+
+    & input{
+        width: 50px;
+    }
+    & #btnId{
+        margin-top: 10px;
+        width: 250px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+    }
+    & #btnId:hover{
+        background: red;
+        color: white;
+        border: 1px solid red;
+    }
+}
