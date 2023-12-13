@@ -1,9 +1,12 @@
 
 
 btnId.addEventListener('click',function () {
-    let rId=document.getElementById('rID').value
-    let gId=document.getElementById('gID').value
-    let bId=document.getElementById('bID').value
+    let rId=document.getElementById('rID').value.addEventListener("click", function(event){
+        event.preventDefault()})
+    let gId=document.getElementById('gID').value.addEventListener("click", function(event){
+        event.preventDefault()})
+    let bId=document.getElementById('bID').value.addEventListener("click", function(event){
+        event.preventDefault()})
     if(rId !== "" && gId !== "" && bId !== ""){
         const divAdd=document.getElementById('divAdd');
         const newColor=document.createElement('input');
